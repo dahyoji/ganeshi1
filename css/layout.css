@@ -3,6 +3,12 @@
     margin: 0 auto;
 }
 
+@media (max-width:768px) {
+    .inner {
+        margin: 0 16px;
+    }
+}
+
 .default {
     padding: 80px 0;
 }
@@ -26,6 +32,26 @@
     color: #484b32;
 
 }
+
+
+@media (max-width:768px) {
+
+    .default {
+        padding: 80px 0;
+    }
+
+    .default .title {
+        max-width: 1410px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+
+        /*  */
+        margin: 0 16px;
+        margin-bottom: 40px;
+    }
+
+}
+
 
 .scroll {
     font-size: 12px;
